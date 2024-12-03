@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CDN Boothstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Icons de bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- fav icon -->
+  <link rel="shortcut icon" href="assets/code.svg" type="image/x-icon">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+   <link rel="stylesheet" href="style.css">
+
+  <title>Fatima Abril Rubio Avila</title>
+</head>
+
+<body>
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
+      <i class="bi bi-code p-3"></i>
+      <span class="fs-4">Fatima Rubio Avila</span>
+    </a>
+
+    <ul class="nav nav-pills">
+      <li class="nav-item boton-perfil"><a id="boton-perfil" href="#" class="nav-link active perfil" aria-current="page">Perfil</a></li>
+      <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+      <li class="nav-item"><a href="#proyecto" class="nav-link">Proyectos</a></li>
+      <li class="nav-item"><a href="#testimonios" class="nav-link">Testimonios</a></li>
+      <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+    </ul>
+  </header>
+  <main>
+    <!-- hero -->
+    <div class="hero">
+      <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4 rounded-circle" src="assets/myphoto2.jpg" alt="" width="300">
+        <h1 class="display-5 fw-bold text-body-emphasis">Fatima Rubio Avila</h1>
+        <h2 id="app"></h2>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Estudiante de Operaciones Comerciales Internacionales con especialización en
+            Clasificación Arancelaria y
+            Despacho Aduanero. Poseo habilidades analíticas y una mentalidad orientada a resultados. Estoy enfocada en
+            la gestión eficiente de cadenas de suministro internacionales y normativas de comercio exterior. Busco
+            aprender y aplicar mis conocimientos en entornos dinámicos para crecer profesional y personalmente.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4 boton-cv">Ir a mi CV</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Habilidades -->
+     <div class="cajahabilidades">
+    <div class="habilidades container px-4 py-5" id="habilidades">
+      <h2 class="pb-2 border-bottom">Habilidades</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <i class="bi bi-laptop fs-1"></i>
+          </div>
+          <div>
+            <h3 class="fs-2 ">Desarrollo Frontend</h3>
+            <p>He creado sitios web responsivos aplicando los conocimientos obtenidos durante el bootcamp de
+              Tecnolochicas PRO.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <i class="fs-1 bi bi-book-half"></i>
+          </div>
+          <div>
+            <h3 class="fs-2">Clasificación arancelaria</h3>
+            <p>Dominio de las normativas internacionales para la correcta clasificación de mercancías, asegurando el
+              cumplimiento de la Ley Aduanera.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <i class="fs-1 bi bi-person-bounding-box"></i>
+          </div>
+          <div>
+            <h3 class="fs-2">Atención al Cliente
+            </h3>
+            <p>Enfoque en brindar una experiencia satisfactoria y mantener relaciones comerciales positivas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- PROYECTOS-->
+    <!-- Card 1 -->
+    <div id="proyecto" class="proyectos container mt-5">
+      <h2 class="pb-2 border-bottom">Proyectos</h2>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="assets/Pinterestclon.png" alt="">
+              <div class="card-body">
+                <p class="card-text">Proyecto creado en Tecnolochicas Pro simulando la página principal de Pinterest.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"> <a target="_blank"
+                        href="https://pinterest-clon-rose.vercel.app/">Ver</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"> <a target="_blank"
+                        href="https://github.com/fatima-rubio">Github</a></button>
+                  </div>
+                  <small class="text-body-secondary">HTML, CSS y JS</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="assets/Miprimerpagina.png" alt="">
+              <div class="card-body">
+                <p class="card-text">Mi primer página creada durante el curso en Tecnolochicas Pro.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"> <a target="_blank"
+                        href="https://mi-primera-pagina-eight.vercel.app/">Ver</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"> <a target="_blank"
+                        href="https://github.com/fatima-rubio">Github</a></button>
+                  </div>
+                  <small class="text-body-secondary">HTML, CSS y JS</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="assets/Pinterestclon.png" alt="">
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"> <a target="_blank"
+                        href="https://pinterest-clon-rose.vercel.app/">Ver</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"> <a target="_blank"
+                        href="https://github.com/fatima-rubio">Github</a></button>
+                  </div>
+                  <small class="text-body-secondary">HTML, CSS y JS</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CARDS FIN -->
+
+
+    <!-- CAROUSEL -->
+     <!-- testimonios -->
+    <div id="testimonio" class="testimonios container mt-6">
+      <h2 id="testimonios" class="pb-2 border-bottom">Testimonios</h2>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <!-- card -->
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/Anelmontesdeoca.JPG" class="card-img-top rounded-circle px-5 mt-4" alt="Imagen de testimonio">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Anel Montes de Oca</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary text-center mb-1">Programadora</h6>
+                  <p class="card-text">Fatima muestra un rápido progreso en la adquisición de habilidades técnicas clave
+                    y una gran disposición para colaborar en proyectos. Su actitud positiva y su voluntad de aprender
+                    constantemente son cualidades valiosas en el campo de la programación. No tengo dudas de que Fatima
+                    seguirá creciendo y haciendo contribuciones significativas como desarrolladora frontend en el
+                    futuro.</p>
+                </div>
+              </div>
+              <!-- fin de card -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <!-- card -->
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/Isis.JPG" class="card-img-top rounded-circle px-5 mt-3" alt="Imagen de testimonio">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Isis Izaguirre Toscano</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary text-center mb-1">Programadora</h6>
+                  <p class="card-text">He tenido la oportunidad de ver el trabajo de Fatima como programadora y
+                    realmente me ha impresionado. Sus habilidades técnicas y su capacidad para desarrollar soluciones
+                    efectivas son notables. Siempre entrega proyectos bien estructurados y de alta calidad. Es una
+                    profesional comprometida y confiable, y sin duda su trabajo habla por sí mismo.</p>
+                </div>
+              </div>
+              <!--fin de card  -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <!-- card -->
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/Testimonio3.JPG" class="card-img-top rounded-circle px-3 mt-3" alt="Imagen de testimonio">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Maria del Rayo Ponce Vargas</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary text-center mb-1">Programadora</h6>
+                  <p class="card-text">Como compañera de Fatima durante el Bootcamp de Techonolochicas Pro, considero
+                    que es una persona dedicada y atenta que busca mejorar sus habilidades como desarrolladora Frontend.
+                    Seguramente, debido a su desempeño, se convertirá en una profesional exitosa.</p>
+                </div>
+              </div>
+               <!--fin de card  -->
+            </div>
+          </div>
+
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- FIN CAROUSEL -->
+
+    <!-- Contacto-->
+    <div id="contacto" class="px-4 py-5 my-5 text-center">
+      <i class="d-block mx-auto mb-4 fs-1 bi bi-envelope-paper"></i>
+      <h1 class="display-5 fw-bold">Contactame</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Contactame para iniciar un proyecto de desarrollo web.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="mailto:fatiabrub@gmail.com">
+          <button id="btn-contacto" type="button" class="btn btn-warning btn-lg px-4 gap-3">Haz click aquí</button></a>
+        </div>
+      </div>
+    </div>
+    <!-- Jumbotron final -->
+  </main>
+  <!-- Footer -->
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-itemf"><a href="#" class="nav-link px-2 text-body-secondary"><i class="bi bi-linkedin"></i></a></li>
+        <li class="nav-itemf"><a target="_blank" href="https://github.com/fatima-rubio" class="nav-link px-2 text-body-secondary"><i class="bi bi-github"></i></a></li>
+        <li class="nav-itemf"><a target="_blank" href="https://www.instagram.com/fatima_rba/" class="nav-link px-2 text-body-secondary"><i class="bi bi-instagram"></i></a></li>
+      </ul>
+      <p class="text-center text-body-secondary">Creado por Fatima Rubio en el bootcamp de <a target="_blank" href="https://tecnolochicas.mx">TecnolochicasPro</a></p>
+    </footer>
+  </div>
+  <!-- final de footer -->
+
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- CDN typewriter -->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <!-- main js -->
+  <script src="main.js"></script>
+</body>
+
+</html>

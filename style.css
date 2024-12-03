@@ -1,0 +1,96 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+header{
+    background-color: #641220;
+}
+header a{
+    color: antiquewhite;
+}
+.nav-item a{
+   color: white;
+}
+
+#boton-perfil{
+    background-color: goldenrod;
+}
+
+#boton-perfil:hover{
+    background-color: gray;
+    color: whitesmoke;
+}
+
+.nav-item a:hover{
+    color: burlywood;
+}
+#app{
+    color: #641220;
+}
+.boton-cv{
+    background-color: goldenrod;
+    color: aliceblue;
+}
+
+.cajahabilidades{
+    background-color: #641220;
+    color: antiquewhite;
+}
+
+h3{
+    color: antiquewhite;
+}
+
+.btn-proyecto{
+    background-color: #641220;
+}
+
+.btn-proyecto a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.btn-proyecto:hover{
+    background-color: goldenrod;
+}
+
+.card .card-title{
+    color: #641220;
+}
+
+#contacto{
+    background-color: #641220;
+    color: antiquewhite;
+}
+
+#contacto p{
+    color: wheat;
+}
+
+#btn-contacto{
+    color: black;
+    background-color: antiquewhite;
+}
+#btn-contacto:hover{
+    background-color: goldenrod;
+    color: whitesmoke;
+}
+
+.nav-itemf{
+    color: goldenrod;
+}
+
+footer li a i{
+    color: goldenrod;
+}
+footer li a i:hover{
+    color: #641220;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #641220;
+}
+
+footer p a:hover{
+    color: goldenrod;
+}
